@@ -1,5 +1,9 @@
 /* Global Styles */
 
+
+@tailwind components;
+@tailwind utilities;
+
 * {
   font-family: 'Roboto', Arial, sans-serif;
   color: #616161;
@@ -102,6 +106,18 @@ label {
 .fancy-button i.material-icons {
   color: #1976d2;
   padding-right: 4px;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+
+.pb-4 {
+  padding-bottom: 16px;
+}
+
+.flex {
+  display: flex;
 }
 
 /* Top Bar */
